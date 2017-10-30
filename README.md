@@ -6,7 +6,7 @@ $ wget https://github.com/yomun/youdao-dict-rpm/raw/master/youdao-dict<br><br>
 $ wget https://github.com/yomun/youdao-dict-rpm/raw/master/youdao-dict.temp.spec<br><br>
 3) 在 Ubuntu 安装 rpm (需要 rpmbuild)<br>
 $ sudo apt install rpm<br><br>
-4) 下载整理源码后, 运行 rpmbuild, 生成 rpm 文件<br>
+4) 下载 DEB 取出与整理源码后, 运行 rpmbuild, 生成 rpm 文件<br>
 $ wget https://github.com/yomun/youdao-dict-rpm/raw/master/build.sh<br>
 $ bash build.sh<br><br>
 5) 在其它 Linux 分发版(如 Fedora) 安装 rpm<br>
