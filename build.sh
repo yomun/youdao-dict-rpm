@@ -46,7 +46,7 @@ tar xvf "data.tar.xz" .
 mkdir -p "{$SEMIDIR}"
 mkdir -p "${SEMIDIR}/usr/bin"
 cp -R usr "${SEMIDIR}/"
-mv etc "${SEMIDIR}/"
+cp -R etc "${SEMIDIR}/"
 
 # The Original /usr/bin/youdao-dict is a System Link
 rm -rf "${SEMIDIR}/usr/bin/youdao-dict"
