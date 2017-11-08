@@ -18,11 +18,11 @@ Provides:	application(youdao-dict.desktop)
 
 Requires:	python%{?_isa}
 Requires:	python3-lxml%{?_isa}
-Requires:	python3-pillow%{?_isa}
-Requires:	python3-qt5%{?_isa}
-Requires:	python3-qt5-devel%{?_isa}
-Requires:	python3-qt5-webkit%{?_isa}
-Requires:	tesseract-devel%{?_isa}
+# Requires:	python3-pillow%{?_isa}
+# Requires:	python3-qt5%{?_isa}
+# Requires:	python3-qt5-devel%{?_isa}
+# Requires:	python3-qt5-webkit%{?_isa}
+# Requires:	tesseract-devel%{?_isa}
 
 %description
 Youdao Dict (unofficial release, package made by Jason Mun <yomun@yahoo.com>)
